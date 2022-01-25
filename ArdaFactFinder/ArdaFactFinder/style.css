@@ -1,0 +1,99 @@
+/*
+Color Palettes:
+https://coolors.co/708b75-084887-f58a07-6f1d1b-00bfb2
+https://coolors.co/27213c-5a352a-a33b20-a47963-a6a57a
+https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
+
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100%;
+	background-color: #708B75;
+}
+
+main{
+	width: 1200px;
+	height: 920px;
+	display: grid;
+	grid-template-rows: 1fr 8fr 0.6fr;
+}
+
+section{
+	border: 3px solid black;
+	width: auto auto;
+	margin: 15px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #F9AB55;
+	color: black;
+	font-family: 'New Times Roman';
+}
+
+#menu{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin: 15px 15px 0px;
+}
+
+#menu > input{
+	background-color: #1c5f7a;
+	color: #F58A07;
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+	border : 3px solid;
+	border-radius: 10px;
+}
+
+#menu > input:hover{
+	background-color: #F58A07;
+	color: #084887;
+	border : 3px solid #084887;
+}
+#themes{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin: 0px 15px 15px;
+}
+#themes > input{
+	background-color: #1c5f7a;
+	color: #F58A07;
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+	border : 3px solid;
+	border-radius: 10px;
+}
+
+#themes > input:hover{
+	background-color: #F58A07;
+	color: #084887;
+	border : 3px solid #084887;
+}
+#sickWomen{
+	width: 500px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#facts{
+	text-align: center
+}
+
+#images{
+	width: 800px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
