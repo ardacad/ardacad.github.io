@@ -1,3 +1,11 @@
+/*
+Color Paletts
+https://coolors.co/708b75-084887-f58a07-6f1d1b-00bfb2
+https://coolors.co/27213c-5a352a-a33b20-a47963-a6a57a
+https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
+
+*/
+
 function factOne(){
 	document.querySelector('section').innerHTML= "<h3 id='facts'> Our galaxy, Milky Way is set to collide with the Andromeda galaxy.</h3><br> <img src='images/andromeda.jpg' alt='Andromeda Galaxy' id='images'>";
 }
